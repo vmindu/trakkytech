@@ -1,0 +1,19 @@
+.preview-content{
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    width:400px ;
+    background-color: #fff;
+}
+.moreicon{
+    bottom: 0;
+    right: 0;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    padding: 2px;
+
+}
+.swiper-scrollbar-drag{
+    background: rgb(17 14 255 / 80%);
+}
