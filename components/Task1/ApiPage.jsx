@@ -11,7 +11,7 @@ export default function ApiPage() {
   const fetchProducts = async () => {
     setLoading(true);
     try {
-      const res = await fetch(`https://20.193.149.47:2242/salons/service/`);
+      const res = await fetch(`http://20.193.149.47:2242/salons/service/`);
       const data = await res.json();
       if (data) {
         setService(data);
